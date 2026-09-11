@@ -1,0 +1,71 @@
+﻿# PjBL Level 1 -- Digital Problem Framing Mini Project
+
+Buku petunjuk Project-Based Learning (PjBL) untuk mahasiswa Semester 1 Program Studi Sistem Informasi.
+
+## Tentang Proyek
+
+Proyek **Digital Problem Framing Mini Project** adalah kesempatan mahasiswa untuk:
+
+1. Mengunjungi unit usaha nyata (kantin, warung, koperasi) di sekitar kampus
+2. Memahami masalah yang mereka hadapi
+3. Merancang solusi sederhana berbasis program
+4. Membangun prototipe program konsol (CLI)
+5. Mempresentasikan hasil ke pemilik usaha
+6. Membangun portofolio digital pertama di LinkedIn
+
+## File
+
+| File | Deskripsi |
+|---|---|
+| [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa |
+| [Worksheet Book](docs/WORKSHEET_BOOK.md) | Kumpulan worksheet WS01-WS16 |
+| [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-09 |
+| [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap |
+| [Jadwal Semester](docs/JADWAL_SEMESTER.md) | Jadwal 16 minggu |
+
+## Starter Pack
+
+Clone starter pack untuk memulai proyek:
+
+```bash
+git clone [URL_REPO]
+cd [nama-repo]
+python src/main.py   # coba jalankan program awal
+```
+
+Lihat [starter-pack/README.md](starter-pack/README.md) untuk panduan lengkap.
+
+## Struktur Repository
+
+```
+.
+ README.md                     File ini
+ LICENSE                       MIT License
+ .gitignore
+ docs/                         Dokumen proyek
+    PANDUAN_MAHASISWA.md
+    WORKSHEET_BOOK.md
+    TEMPLATE_PACK.md
+    ASSESSMENT_RUBRICS.md
+    JADWAL_SEMESTER.md
+ starter-pack/                 Template awal untuk mahasiswa
+    README.md
+    docs/
+    src/
+    worksheets/
+ images/                       Gambar pendukung
+```
+
+## Untuk Dosen
+
+1. Clone repository ini
+2. Bagikan URL clone ke mahasiswa di minggu 1
+3. Mahasiswa clone starter pack untuk memulai proyek
+
+## Lisensi
+
+MIT License - Lihat [LICENSE](LICENSE) untuk detail.
+
+---
+
+**Program Studi Sistem Informasi** | Tahun Akademik 2026/2027
