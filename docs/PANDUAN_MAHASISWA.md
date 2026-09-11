@@ -233,25 +233,25 @@ Buat struktur folder berikut di repository:
 
 ```
 pbl-level1-[nama-tim]/
-"" README.md                    + Deskripsi proyek
-"" docs/                        + Dokumen proyek
-",   "" D1-problem-brief.md      + TPL-01
-",   "" D2-user-story.md         + TPL-02
-",   "" D3-prototipe.md          + TPL-03
-",   "" D4-executive-summary.md  + TPL-04
-",   "" D4-pitch-deck.md         + TPL-05
-",   "" D5-meta-log.md           + TPL-07
-",   """ D6-linkedin.md           + TPL-08
-"" src/                         + Kode program
-",   "" main.py
-",   "" README.md                + Penjelasan kode
-",   """ test_log.md              + Log hasil uji
-"" assets/                      + Gambar, screenshot, dll
-",   "" flowchart.png
-",   """ demo-screenshot.png
-""" worksheets/                  + Worksheet (opsional)
-    "" WS01-team-norms.md
-    """" ...
+├── README.md                    # Deskripsi proyek
+├── docs/                        # Dokumen proyek
+│   ├── D1-problem-brief.md      # TPL-01
+│   ├── D2-user-story.md         # TPL-02
+│   ├── D3-prototipe.md          # TPL-03
+│   ├── D4-executive-summary.md  # TPL-04
+│   ├── D4-pitch-deck.md         # TPL-05
+│   ├── D5-meta-log.md           # TPL-07
+│   └── D6-linkedin.md           # TPL-08
+├── src/                         # Kode program
+│   ├── main.py
+│   ├── README.md                # Penjelasan kode
+│   └── test_log.md              # Log hasil uji
+├── assets/                      # Gambar, screenshot, dll
+│   ├── flowchart.png
+│   └── demo-screenshot.png
+└── worksheets/                  # Worksheet (opsional)
+    ├── WS01-team-norms.md
+    └── ...
 ```
 
 ### Langkah 3: Clone ke Laptop
@@ -582,54 +582,55 @@ Bagian ini adalah **daftar pusat** seluruh template yang kalian butuhkan. Gunaka
 | **WS15** | Decision Log | 5-15 | +' TPL-07 | Lintas MK |
 | **WS16** | Final Reflection & Postmortem | 16 | +' TPL-07, TPL-09 | Lintas MK |
 
-## Peta Koneksi: Worksheet +' Template +' GitHub
+## Peta Koneksi: Worksheet -> Template -> GitHub
 
 ```mermaid
-flowchart LR
-    subgraph WORKSHEETS[""< WORKSHEETS"]
-        WS01["WS01\nTeam Norms"]
-        WS02["WS02\nNeeds List"]
-        WS03["WS03\nObservasi Awal"]
-        WS04["WS04\nWawancara Pemilik"]
-        WS05["WS05\nAnalisis Masalah"]
-        WS06["WS06\nUser Story"]
-        WS07["WS07\nPrototipe Awal"]
-        WS08["WS08\nEvaluasi Rekan"]
-        WS09["WS09\nUji Coba Pengguna"]
-        WS10["WS10\nValidasi Klien"]
-        WS11["WS11\nExecutive Summary"]
-        WS12["WS12\nPitch Deck"]
-        WS13["WS13\nRefleksi Tim"]
-        WS14["WS14\nRencana Lanjut"]
-        WS15["WS15\nLog Proyek"]
-        WS16["WS16\nFinal Reflection"]
-    end
+stateDiagram-v2
+    direction LR
 
-    subgraph TPL[" TEMPLATE DELIVERABLE"]
-        TPL01["TPL-01\nD1 Problem Brief"]
-        TPL02["TPL-02\nD2 User Story"]
-        TPL03["TPL-03\nD3 Prototipe"]
-        TPL04["TPL-04\nD4 Executive Summary"]
-        TPL05["TPL-05\nD4 Pitch Deck"]
-        TPL06["TPL-06\nD4 Poster Demo Day"]
-        TPL07["TPL-07\nD5 Meta-Log"]
-        TPL08["TPL-08\nD6 LinkedIn"]
-        TPL09["TPL-09\nFinal Report"]
-    end
+    state "WORKSHEETS" as WS {
+        WS01: WS01 Team Norms
+        WS02: WS02 Needs List
+        WS03: WS03 Observasi
+        WS04: WS04 Wawancara
+        WS05: WS05 Analisis
+        WS06: WS06 User Story
+        WS07: WS07 Prototipe Awal
+        WS08: WS08 Evaluasi
+        WS09: WS09 Uji Coba
+        WS10: WS10 Validasi
+        WS11: WS11 Exec Summary
+        WS12: WS12 Pitch Deck
+        WS13: WS13 Refleksi
+        WS14: WS14 Rencana
+        WS15: WS15 Meta-Log
+        WS16: WS16 Final Reflect
+    }
 
-    subgraph GITHUB["TM GITHUB FILES"]
-        D1["docs/\nD1-problem-brief.md"]
-        D2["docs/\nD2-user-story.md"]
-        D3["docs/\nD3-prototipe.md"]
-        D4a["docs/\nD4-executive-summary.md"]
-        D4b["docs/\nD4-pitch-deck.md"]
-        D5["docs/\nD5-meta-log.md"]
-        D6["docs/\nD6-linkedin.md"]
-        SRC["src/\nmain.py"]
-        ASSETS["assets/\nposter.png"]
-    end
+    state "TEMPLATE DELIVERABLE" as TPL {
+        TPL01: TPL-01 D1 Brief
+        TPL02: TPL-02 D2 Story
+        TPL03: TPL-03 D3 Prototype
+        TPL04: TPL-04 D4 Summary
+        TPL05: TPL-05 D4 Pitch
+        TPL06: TPL-06 D4 Poster
+        TPL07: TPL-07 D5 MetaLog
+        TPL08: TPL-08 D6 LinkedIn
+        TPL09: TPL-09 Final Report
+    }
 
-    %% WS +' TPL connections
+    state "GITHUB FILES" as GH {
+        D1: D1-problem-brief.md
+        D2: D2-user-story.md
+        D3: D3-prototipe.md
+        D4a: D4-executive-summary.md
+        D4b: D4-pitch-deck.md
+        D5: D5-meta-log.md
+        D6: D6-linkedin.md
+        SRC: src/main.py
+        ASSETS: assets/poster.png
+    }
+
     WS01 --> TPL07
     WS02 --> TPL01
     WS03 --> TPL01
@@ -649,7 +650,6 @@ flowchart LR
     WS16 --> TPL07
     WS16 --> TPL09
 
-    %% TPL +' GitHub connections
     TPL01 --> D1
     TPL02 --> D2
     TPL03 --> D3
@@ -659,15 +659,6 @@ flowchart LR
     TPL06 --> ASSETS
     TPL07 --> D5
     TPL08 --> D6
-
-    %% Styling
-    classDef worksheet fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    classDef template fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    classDef github fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-
-    class WS01,WS02,WS03,WS04,WS05,WS06,WS07,WS08,WS09,WS10,WS11,WS12,WS13,WS14,WS15,WS16 worksheet
-    class TPL01,TPL02,TPL03,TPL04,TPL05,TPL06,TPL07,TPL08,TPL09 template
-    class D1,D2,D3,D4a,D4b,D5,D6,SRC,ASSETS github
 ```
 
 <div style="page-break-before: always;"></div>
