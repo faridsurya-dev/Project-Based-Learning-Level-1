@@ -1,6 +1,6 @@
-﻿# Log Hasil Uji
+# Log Hasil Uji
 
-**Project**: Digital Problem Framing Mini Project -- [Nama Unit Usaha]
+**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
 **Pengembang**: [Nama]
 **Tanggal**: [DD/MM/YYYY]
 
@@ -13,11 +13,11 @@
 
 | # | Kasus Uji | Input | Output Diharapkan | Output Aktual | Status | Perbaikan |
 |---|---|---|---|---|---|---|
-| 1 | | | | |  Lulus /  Gagal | |
-| 2 | | | | |  Lulus /  Gagal | |
-| 3 | | | | |  Lulus /  Gagal | |
-| 4 | | | | |  Lulus /  Gagal | |
-| 5 | | | | |  Lulus /  Gagal | |
+| 1 | | | | | ⬜ Lulus / ⬜ Gagal | |
+| 2 | | | | | ⬜ Lulus / ⬜ Gagal | |
+| 3 | | | | | ⬜ Lulus / ⬜ Gagal | |
+| 4 | | | | | ⬜ Lulus / ⬜ Gagal | |
+| 5 | | | | | ⬜ Lulus / ⬜ Gagal | |
 
 ## Catatan Tambahan
 
@@ -25,4 +25,4 @@ _[Tulis catatan tambahan tentang bug yang ditemukan, perbaikan yang dilakukan, d
 
 ---
 
-**Status**:  Dikerjakan
+**Status**: ⬜ Dikerjakan

@@ -1,8 +1,8 @@
-﻿# WS01 -- Team Formation & Project Norms
+# WS01 — Team Formation & Project Norms
 
 **Worksheet Number**: WS01
 **Minggu**: 1
-**Deliverable Terkait**: TPL-07 (Project Meta-Log)
+**Deliverable Terkait**: TPL-09 (Meeting Log) — lampiran D4
 
 ---
 
@@ -10,20 +10,26 @@
 
 1. Perkenalan singkat anggota: nama, kekuatan, harapan dari proyek
 2. Pilih objek studi dari daftar aman (kantin, warung, koperasi, unit layanan kampus)
-3. Tetapkan peran awal: Koordinator Tim, Analis, Pengembang, Dokumentator/Presenter
+3. Tetapkan skema **rotating phase lead** (jadwal sementara siapa memimpin fase apa; semua anggota memimpin minimal satu fase)
 4. Sepakati norma tim (komunikasi, ketepatan waktu, cara menyelesaikan konflik)
 5. Susun need-to-know list awal (lanjut ke WS02)
 
 ## Workspace
 
-### Pembagian Peran
+### Jadwal Rotating Phase Lead (sementara)
 
-| Peran | Nama Anggota | Tanggung Jawab Utama | Rotasi Milestone |
+| Fase | Minggu | Phase Lead | Tanggung Jawab Utama Coverage |
 |---|---|---|---|
-| Koordinator Tim | | Jadwal, fasilitasi rapat, koordinasi | |
-| Analis | | D1, D2; validasi pemilik usaha | |
-| Pengembang | | D3; uji; walkthrough kode | |
-| Dokumentator/Presenter | | D4, D5; dokumentasi keputusan | |
+| Discover | 1 | [Nama] | Koordinasi pembentukan tim, norma, peluncuran |
+| Frame | 2 | [Nama] | Koordinasi observasi & wawancara lapangan |
+| Define | 3–4 | [Nama] | Koordinasi kebutuhan & metrik sukses |
+| Design | 5–7 | [Nama] | Koordinasi desain solusi & sesi critik |
+| Build | 9–12 | [Nama] | Koordinasi pengkodean prototipe |
+| Test | 11–12 | [Nama] | Koordinasi pengujian & validasi |
+| Communicate | 14–15 | [Nama] | Koordinasi penyusunan presentasi publik |
+| Reflect | 13–16 | [Nama] | Koordinasi refleksi, portfolio & passport |
+
+*Catatan: jadwal ini dapat disesuaikan sepanjang semester, dicatat di E5 (Meeting Log). Tim 3 orang: dua fase terakhir dikelola bersama.*
 
 ### Norma Tim yang Disepakati (minimal 5)
 
@@ -39,17 +45,17 @@ _[Isi kesepakatan tim tentang penyelesaian konflik]_
 
 ## Reflection
 
-- Bagaimana perasaan saya terhadap pembagian peran ini?
+- Bagaimana perasaan saya terhadap jadwal kepemimpinan fase ini?
 - Apa kekhawatiran utama saya bekerja dalam tim ini dan bagaimana saya akan mengatasinya?
 
 ## Checklist
 
-- [ ] Tim terbentuk 3-4 orang
+- [ ] Tim terbentuk 3–4 orang
 - [ ] Objek studi terpilih dari daftar aman
-- [ ] Peran awal ditetapkan
+- [ ] Jadwal rotating phase lead disepakati (semua memimpin minimal satu fase)
 - [ ] Norma tim disepakati dan disetujui semua anggota
-- [ ] Salinan norma tim disimpan di GitHub (`docs/D5-meta-log.md`)
+- [ ] Salinan norma tim disimpan di GitHub (`docs/evidence/E5-meeting-log.md`)
 
 ---
 
-**Status**:  Selesai
+**Status**: ⬜ Selesai

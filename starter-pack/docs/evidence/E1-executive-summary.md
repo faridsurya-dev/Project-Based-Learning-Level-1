@@ -1,16 +1,16 @@
-﻿# D4 -- Executive Summary
+# E1 — Executive Summary (Bahasa Inggris)
 
-**Project**: Digital Problem Framing Mini Project -- [Nama Unit Usaha]
-**Team**: [Nama anggota] | **Date**: [DD/MM/YYYY]
+**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
+**Tanggal**: [DD/MM/YYYY] | **Template**: TPL-05
+**Worksheet terkait**: WS14
 
-> **Petunjuk**: Tulis dalam bahasa Inggris, 150-250 kata.
-> Worksheet terkai: WS11
+> **Petunjuk**: Tulis dalam bahasa Inggris, **150–250 kata**. Bagian ini menjadi bagian dari D4.
 
 ---
 
 ## Problem
 
-[Menjelaskan masalah utama yang ditemukan di unit usaha. Siapa yang terdampak? Seberapa sering masalah ini terjadi? Sertakan data singkat sebagai bukti.]
+[Menjelaskan masalah utama yang ditemukan di unit usaha. Siapa yang terdampak? Seberapa sering masalah terjadi? Sertakan data singkat sebagai bukti.]
 
 ## Solution
 
@@ -24,7 +24,7 @@
 
 [Dampak yang diharapkan dari solusi ini, DAN keterbatasan yang masih ada. Jujur tentang apa yang belum bisa dilakukan.]
 
-## Call to Action / Rekomendasi
+## Recommendation
 
 [Rekomendasi singkat untuk pemilik usaha atau pengembangan selanjutnya.]
 
@@ -38,4 +38,4 @@
 
 ---
 
-**Status**:  Draf   Peer Review   Revisi Bahasa   Final (Demo Day)
+**Status**: ⬜ Draf → ⬜ Peer Review → ⬜ Revisi Bahasa → ⬜ Final (Demo Day)

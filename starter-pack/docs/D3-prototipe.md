@@ -1,7 +1,8 @@
-﻿# D3 -- Dokumentasi Prototipe & Hasil Uji
+# D3 — Dokumentasi Prototipe & Hasil Uji
 
-**Project**: Digital Problem Framing Mini Project -- [Nama Unit Usaha]
+**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
 **Tim**: [Nama anggota] | **Tanggal**: [DD/MM/YYYY] | **Versi**: [v1.0]
+**Template**: TPL-03
 
 > **Petunjuk**: Hapus teks dalam `[...]` dan huruf miring setelah diisi.
 > Worksheet terkait: WS07, WS09, WS10
@@ -12,7 +13,7 @@
 
 - **Masalah yang diselesaikan**: [dari D1]
 - **Bentuk prototipe**: [konsol / menu]
-- **Alur utama (input  proses  output)**: [penjelasan singkat]
+- **Alur utama (input → proses → output)**: [penjelasan singkat]
 
 ## 2. Desain Singkat
 
@@ -24,10 +25,10 @@
 
 ```
 1. Menu Utama
-    1.1 [Menu A]
-    1.2 [Menu B]
-    1.3 [Menu C]
-    0. Keluar
+   ├── 1.1 [Menu A]
+   ├── 1.2 [Menu B]
+   ├── 1.3 [Menu C]
+   └── 0. Keluar
 ```
 
 ## 3. Kode Program
@@ -48,7 +49,7 @@
 
 | # | Kasus Uji | Input | Output Diharapkan | Output Aktual | Status | Perbaikan |
 |---|---|---|---|---|---|---|
-| 1 | [nama kasus] | [input] | [output] | [aktual] |  Lulus /  Gagal | [jika gagal] |
+| 1 | [nama kasus] | [input] | [output] | [aktual] | ⬜ Lulus / ⬜ Gagal | [jika gagal] |
 | 2 | | | | | | |
 | 3 | | | | | | |
 | 4 | *(tambah minimal 3 kasus uji)* | | | | | |
@@ -67,4 +68,4 @@
 
 ---
 
-**Status**:  Draf   Uji Coba   Walkthrough   Final (Gate 2)
+**Status**: ⬜ Draf → ⬜ Uji Coba → ⬜ Walkthrough → ⬜ Final (Gate 2)

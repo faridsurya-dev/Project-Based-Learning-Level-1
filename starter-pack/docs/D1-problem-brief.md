@@ -1,7 +1,8 @@
-﻿# D1 -- Problem Brief
+# D1 — Problem Brief
 
-**Project**: Digital Problem Framing Mini Project -- [Nama Unit Usaha]
+**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
 **Tim**: [Nama anggota] | **Tanggal**: [DD/MM/YYYY] | **Versi**: [v1.0]
+**Template**: TPL-01
 
 > **Petunjuk**: Hapus teks dalam `[...]` dan huruf miring setelah diisi.
 > Worksheet terkait: WS03, WS04
@@ -18,7 +19,7 @@
 
 ## 2. Deskripsi Masalah Utama
 
-- **Masalah utama**: [pernyataan masalah yang jelas -- fokus pada MASALAH, bukan solusi]
+- **Masalah utama**: [pernyataan masalah yang jelas — fokus pada MASALAH, bukan solusi]
 - **Pihak yang terdampak**: [siapa terkena dampak dan bagaimana]
 - **Frekuensi / keparahan**: [kapan terjadi, seberapa sering, seberapa mengganggu]
 
@@ -38,7 +39,7 @@
 
 ## 5. Pernyataan Kebutuhan Awal (ringkasan ke D2)
 
-- Kebutuhan inti yang akan dijawab prototipe: [3-5 butir]
+- Kebutuhan inti yang akan dijawab prototipe: [3–5 butir]
 
 ## 6. Daftar Rujukan / Bukti
 
@@ -48,4 +49,4 @@
 
 ---
 
-**Status**:  Draf   Review Tim   Validasi Pemilik   Final (Gate 1)
+**Status**: ⬜ Draf → ⬜ Review Tim → ⬜ Validasi Pemilik → ⬜ Final (Gate 1)

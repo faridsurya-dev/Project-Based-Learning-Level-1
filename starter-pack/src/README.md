@@ -1,4 +1,4 @@
-﻿# Dokumentasi Kode -- Starter Code
+# Dokumentasi Kode — Starter Code
 
 ## Overview
 
@@ -14,30 +14,30 @@ python src/main.py
 
 ```
 main.py
- KONFIGURASI         Pengaturan file data
- FUNGSI-FUNGSI UTAMA
-    clear_screen()         Membersihkan layar
-    tampilkan_header()     Menampilkan header
-    tampilkan_menu()       Menampilkan menu utama
-    inisialisasi_file()    Membuat file CSV jika belum ada
-    baca_data()            Membaca data dari CSV
-    simpan_data()          Menyimpan data ke CSV
- MENU-MENU APLIKASI
-    tambah_data()          Input data penjualan baru
-    lihat_semua_data()     Tampilkan semua data
-    lihat_total_hari_ini() Hitung total hari ini
-    cari_item()            Cari item berdasarkan nama
- PROGRAM UTAMA
-     main()                 Loop utama program
+├── KONFIGURASI        ← Pengaturan file data
+├── FUNGSI-FUNGSI UTAMA
+│   ├── clear_screen()        ← Membersihkan layar
+│   ├── tampilkan_header()    ← Menampilkan header
+│   ├── tampilkan_menu()      ← Menampilkan menu utama
+│   ├── inisialisasi_file()   ← Membuat file CSV jika belum ada
+│   ├── baca_data()           ← Membaca data dari CSV
+│   └── simpan_data()         ← Menyimpan data ke CSV
+├── MENU-MENU APLIKASI
+│   ├── tambah_data()         ← Input data penjualan baru
+│   ├── lihat_semua_data()    ← Tampilkan semua data
+│   ├── lihat_total_hari_ini()← Hitung total hari ini
+│   └── cari_item()           ← Cari item berdasarkan nama
+└── PROGRAM UTAMA
+    └── main()                ← Loop utama program
 ```
 
 ## Library yang Digunakan
 
 | Library | Fungsi | Whitelist |
 |---|---|---|
-| `os` | Clear screen |  |
-| `csv` | Baca/tulis file CSV |  |
-| `datetime` | Ambil tanggal/waktu |  |
+| `os` | Clear screen | ✅ |
+| `csv` | Baca/tulis file CSV | ✅ |
+| `datetime` | Ambil tanggal/waktu | ✅ |
 
 ## Modifikasi
 
