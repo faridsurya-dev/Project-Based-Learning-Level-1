@@ -17,11 +17,11 @@ Proyek **Digital Problem Framing Mini Project** adalah kesempatan mahasiswa untu
 
 | File | Deskripsi |
 |---|---|
-| [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa |
+| [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa (revisi 3) |
 | [Worksheet Book](docs/WORKSHEET_BOOK.md) | Kumpulan worksheet WS01-WS16 |
-| [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-09 |
-| [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap |
-| [Jadwal Semester](docs/JADWAL_SEMESTER.md) | Jadwal 16 minggu |
+| [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-11 (D1-D4 + supporting evidence) |
+| [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap (skema 50/30/20) |
+| [Jadwal Semester](docs/JADWAL_SEMESTER.md) | Jadwal 16 minggu (8 fase, GATE 1, GATE 2, DEMO DAY) |
 
 ## Starter Pack
 
@@ -50,9 +50,10 @@ Lihat [starter-pack/README.md](starter-pack/README.md) untuk panduan lengkap.
     JADWAL_SEMESTER.md
  starter-pack/                 Template awal untuk mahasiswa
     README.md
-    docs/
+    docs/                      D1-D4 + evidence/E1-E7
     src/
     worksheets/
+    assets/
  images/                       Gambar pendukung
 ```
 
