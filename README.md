@@ -19,6 +19,7 @@ Proyek **Digital Problem Framing Mini Project** adalah kesempatan mahasiswa untu
 |---|---|
 | [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa (revisi 3) |
 | [Panduan Dosen](docs/PANDUAN_DOSEN.md) | Buku petunjuk operasional untuk dosen pengampu & reviewer gate |
+| [Panduan Mentor](docs/PANDUAN_MENTOR.md) | Petunjuk teknis per pekan untuk mentor praktikum (onboarding GitHub & e-learning, praktikum Dasar Pemrograman) |
 | [Worksheet Book](docs/WORKSHEET_BOOK.md) | Kumpulan worksheet WS01-WS16 |
 | [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-11 (D1-D4 + supporting evidence) |
 | [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap (skema 50/30/20) |
@@ -46,6 +47,7 @@ Lihat [starter-pack/README.md](starter-pack/README.md) untuk panduan lengkap.
 docs/                         Dokumen proyek
      PANDUAN_MAHASISWA.md
      PANDUAN_DOSEN.md
+     PANDUAN_MENTOR.md
      WORKSHEET_BOOK.md
      TEMPLATE_PACK.md
      ASSESSMENT_RUBRICS.md
@@ -65,6 +67,12 @@ docs/                         Dokumen proyek
 2. Clone repository ini
 3. Bagikan URL clone ke mahasiswa di minggu 1
 4. Mahasiswa clone starter pack untuk memulai proyek
+
+## Untuk Mentor
+
+1. Baca [Panduan Mentor](docs/PANDUAN_MENTOR.md) — petunjuk teknis per pekan (rasio 1 mentor : 2 tim, 16 aktivitas `| mentor`, rubrik, etika & pelaporan).
+2. Pekan 1 berfokus pada **onboarding tools**: akses e-learning, GitHub (clone/commit/push), dan menjalankan Python pertama kali.
+3. Skor mentor adalah **input bagi dosen** — dosen yang menetapkan nilai akhir.
 
 ## Lisensi
 
