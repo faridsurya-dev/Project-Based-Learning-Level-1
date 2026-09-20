@@ -131,6 +131,101 @@ Format penyerahan: **TPL-01** (D1), **TPL-02** (D2), **TPL-03** (D3), **TPL-04**
 | Profil LinkedIn / Portofolio Digital | Foto, headline, about, projects, skills | TPL-10 |
 | Individual Competency Passport | Skor & status klaim 9 kompetensi | TPL-11 |
 
+## 4.3 Peta Koneksi: Worksheet → Template → Deliverable
+
+```mermaid
+stateDiagram-v2
+    direction LR
+
+    state "WORKSHEETS (WS01-WS16)" as WS {
+        WS01: WS01 Norma Tim
+        WS02: WS02 Need-to-Know
+        WS03: WS03 Observasi Lapangan
+        WS04: WS04 Pilihan & Scope
+        WS05: WS05 Kebutuhan & Kriteria
+        WS06: WS06 Metrik & Komponen SI
+        WS07: WS07 Desain Solusi (IPO/Flowchart)
+        WS08: WS08 Kritik I
+        WS09: WS09 Rencana Build
+        WS10: WS10 Log Uji & Walkthrough
+        WS11: WS11 Sprint Log
+        WS12: WS12 Validasi Pengguna
+        WS13: WS13 Kritik II
+        WS14: WS14 Pitch & Demo
+        WS15: WS15 Refleksi & AI
+        WS16: WS16 Postmortem
+    }
+
+    state "TEMPLATES (TPL-01..11)" as TPL {
+        TPL01: TPL-01 (D1)
+        TPL02: TPL-02 (D2)
+        TPL03: TPL-03 (D3)
+        TPL04: TPL-04 (D4)
+        TPL05: TPL-05 (E1)
+        TPL06: TPL-06 (E2)
+        TPL07: TPL-07 (E3)
+        TPL08: TPL-08 (E4)
+        TPL09: TPL-09 (E5)
+        TPL10: TPL-10 (E6)
+        TPL11: TPL-11 (E7)
+    }
+
+    state "DELIVERABLES" as DEL {
+        D1: D1 Problem Brief
+        D2: D2 System & Solution Design
+        D3: D3 Tested Solution Prototype
+        E1: E1 Executive Summary
+        E2: E2 Pitch Deck
+        E3: E3 AI Disclosure & Verification
+        E4: E4 Decision Log
+        E5: E5 Meeting Log & Peer Assessment
+        E6: E6 LinkedIn / Portofolio Digital
+        E7: E7 Individual Competency Passport
+        D4: D4 Reflection & Portfolio
+    }
+
+    WS01 --> TPL09
+    WS02 --> TPL01
+    WS03 --> TPL01
+    WS04 --> TPL01
+    WS05 --> TPL02
+    WS06 --> TPL02
+    WS07 --> TPL02
+    WS08 --> TPL02
+    WS09 --> TPL03
+    WS10 --> TPL03
+    WS11 --> TPL03
+    WS12 --> TPL03
+    WS13 --> TPL03
+    WS14 --> TPL05
+    WS14 --> TPL06
+    WS15 --> TPL07
+    WS15 --> TPL08
+    WS16 --> TPL04
+    WS16 --> TPL11
+
+    TPL01 --> D1
+    TPL02 --> D2
+    TPL03 --> D3
+    TPL04 --> D4
+    TPL05 --> E1
+    TPL06 --> E2
+    TPL07 --> E3
+    TPL08 --> E4
+    TPL09 --> E5
+    TPL10 --> E6
+    TPL11 --> E7
+    E1 --> D4
+    E2 --> D4
+    E3 --> D4
+    E4 --> D4
+    E5 --> D4
+    E6 --> D4
+    E7 --> D4
+```
+
+Terbaca: setiap **worksheet** menopang **template** tertentu; template inti (TPL-01..04) membentuk **deliverable D1–D4**, sedangkan template lampiran (TPL-05..11) menjadi **supporting evidence E1–E7** yang dibukukan ke dalam **D4**.
+
 ---
 
 # Bagian 5: Asesmen
