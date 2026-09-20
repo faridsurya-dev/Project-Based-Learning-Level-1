@@ -18,6 +18,7 @@ Proyek **Digital Problem Framing Mini Project** adalah kesempatan mahasiswa untu
 | File | Deskripsi |
 |---|---|
 | [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa (revisi 3) |
+| [Panduan Dosen](docs/PANDUAN_DOSEN.md) | Buku petunjuk operasional untuk dosen pengampu & reviewer gate |
 | [Worksheet Book](docs/WORKSHEET_BOOK.md) | Kumpulan worksheet WS01-WS16 |
 | [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-11 (D1-D4 + supporting evidence) |
 | [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap (skema 50/30/20) |
@@ -42,12 +43,13 @@ Lihat [starter-pack/README.md](starter-pack/README.md) untuk panduan lengkap.
  README.md                     File ini
  LICENSE                       MIT License
  .gitignore
- docs/                         Dokumen proyek
-    PANDUAN_MAHASISWA.md
-    WORKSHEET_BOOK.md
-    TEMPLATE_PACK.md
-    ASSESSMENT_RUBRICS.md
-    JADWAL_SEMESTER.md
+docs/                         Dokumen proyek
+     PANDUAN_MAHASISWA.md
+     PANDUAN_DOSEN.md
+     WORKSHEET_BOOK.md
+     TEMPLATE_PACK.md
+     ASSESSMENT_RUBRICS.md
+     JADWAL_SEMESTER.md
  starter-pack/                 Template awal untuk mahasiswa
     README.md
     docs/                      D1-D4 + evidence/E1-E7
@@ -59,9 +61,10 @@ Lihat [starter-pack/README.md](starter-pack/README.md) untuk panduan lengkap.
 
 ## Untuk Dosen
 
-1. Clone repository ini
-2. Bagikan URL clone ke mahasiswa di minggu 1
-3. Mahasiswa clone starter pack untuk memulai proyek
+1. Baca [Panduan Dosen](docs/PANDUAN_DOSEN.md) — buku petunjuk operasional penuh (fasilitasi, gate, asesmen 50/30/20, passport).
+2. Clone repository ini
+3. Bagikan URL clone ke mahasiswa di minggu 1
+4. Mahasiswa clone starter pack untuk memulai proyek
 
 ## Lisensi
 
