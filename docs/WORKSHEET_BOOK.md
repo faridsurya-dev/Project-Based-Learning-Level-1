@@ -5,11 +5,11 @@ Semester : 1
 Version : Draft v2.0
 Last Updated : 2026-09-19
 Related Files:
-- [[output/pbl/level_1/project_guide_level_1|project_guide_level_1]]
-- [[output/pbl/level_1/learning_spine|learning_spine]]
-- [[output/pbl/level_1/template_pack|template_pack]]
-- [[output/pbl/level_1/instructor_guide|instructor_guide]]
-- [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]]
+- `project_guide_level_1`
+- `learning_spine`
+- [TEMPLATE_PACK.md](TEMPLATE_PACK.md)
+- `instructor_guide`
+- `individual_competency_passport`
 
 ---
 

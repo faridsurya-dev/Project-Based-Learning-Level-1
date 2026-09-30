@@ -1,7 +1,30 @@
 Tags: #type/guidebook #domain/pbl #pbl/level-1 #audience/instructor
 # Buku Petunjuk Dosen Project-Based Learning (PjBL) — Level 1
-
 Version : Draft v1.0 | Last Updated : 2026-09-19
+Related Files:
+- `project_guide_level_1`
+- `learning_spine`
+- [WORKSHEET_BOOK.md](WORKSHEET_BOOK.md)
+- [TEMPLATE_PACK.md](TEMPLATE_PACK.md)
+- [ASSESSMENT_RUBRICS.md](ASSESSMENT_RUBRICS.md)
+- `instructor_guide`
+- `individual_competency_passport`
+- [JADWAL_SEMESTER.md](JADWAL_SEMESTER.md)
+Shared References:
+- `assessment_framework`
+- `sfia_mapping`
+- `ai_policy`
+
+**Digital Problem Framing Mini Project** | Program Studi Sistem Informasi | Semester 1 (Foundation Entry) | TA 2026/2027
+
+> **Yang berubah di revisi ini (mengacu `revision_note_1.md`)?**
+> 1. **Learning spine 8 fase**: Discover → Frame → Define → Design → **GATE 1** → Build → Test → **GATE 2** → Communicate → Reflect → **DEMO DAY**.
+> 2. **4 core artifacts (D1–D4)** menggantikan D1–D7 lama. AI disclosure, decision log, meeting log, peer assessment, LinkedIn menjadi **supporting evidence** (lampiran D4).
+> 3. **Rotating phase lead** menggantikan peran tetap (Koordinator/Analis/Pengembang/Dokumentator).
+> 4. **Asesmen individu 50/30/20** + **Individual Competency Passport**.
+> 5. Dokumen ini adalah **buku petunjuk operasional dosen** — melengkapi `instructor_guide.md` yang lebih rinci; panduan mahasiswa ada di [pbl_guidebook_for_student_revisi_3](PANDUAN_MAHASISWA.md).
+
+---
 
 ## Daftar Isi
 1. [Pendahuluan & Peran Dosen](#bagian-1-pendahuluan)
@@ -58,7 +81,6 @@ Mahasiswa memilih **satu unit usaha kecil nyata** (kantin kampus, warung, kopera
 # Bagian 2: Learning Spine & Fasilitasi per Fase
 
 ## 2.1 Learning Spine (8 Fase)
-
 ```
 DISCOVER → FRAME → DEFINE → DESIGN → [GATE 1] → BUILD → TEST → [GATE 2] → COMMUNICATE → REFLECT → [DEMO DAY]
 ```
@@ -118,7 +140,7 @@ Peran dosen:
 | **D3** | Tested Solution Prototype | Prototipe konsol + kode, test cases & results, user validation, improvement, limitation | Dasar Prog | Design GATE 1 → GATE 2 | Kode bisa dijelaskan baris demi baris; bukti uji valid |
 | **D4** | Reflection & Portfolio | Summary, decisions, kontribusi individu, AI disclosure, verification, refleksi, dokumentasi portfolio | Kom. Profesional & B. Inggris (co-owner) | Draf GATE 2 → DEMO DAY | Kelengkapan supporting evidence; refleksi autentik |
 
-Format penyerahan: **TPL-01** (D1), **TPL-02** (D2), **TPL-03** (D3), **TPL-04** (D4) plus lampiran — lihat [[output/pbl/level_1/template_pack|template_pack]].
+Format penyerahan: **TPL-01** (D1), **TPL-02** (D2), **TPL-03** (D3), **TPL-04** (D4) plus lampiran — lihat [template_pack](TEMPLATE_PACK.md).
 
 ## 4.2 Supporting Evidence (lampiran D4 — diverifikasi saat GATE 2 & DEMO DAY)
 | Evidence | Isi | Template | Catatan Verifikasi |
@@ -147,7 +169,7 @@ Proporsi default dapat diselaraskan dengan RPS; catat perubahan agar dokumentasi
 - **Dosen pengampu** = teacher assessor: checkpoint formatif, oral/code walkthrough, bukti per Sub-CPMK.
 - **Reviewer gate** = verifikator evidence: kecocokan klaim individu vs artefak, AI disclosure, decision log.
 - **Pemilik usaha / dosen tamu** = outside expert assessor: menilai produk publik (Demo Day).
-- Selalu **asesmen per individu**, bukan hanya nilai kelompok (menghindari free-rider).
+- Selalu **asesmen per individu**, bukan hanya nilai kelompok (anti-free-rider).
 
 ## 5.3 Fokus Penilaian
 - **Reasoning chain**, bukan hanya artefak akhir: gunakan decision log, oral defense, dan walkthrough sebagai bukti.
@@ -155,7 +177,7 @@ Proporsi default dapat diselaraskan dengan RPS; catat perubahan agar dokumentasi
 - Learning journal dinilai per individu, diunggah **per checkpoint** (bukan hanya akhir).
 
 ## 5.4 Individual Competency Passport
-9 kompetensi: **problem framing, system thinking, computational thinking, programming, testing, communication, collaboration, AI literacy, reflection**. Status klaim: Unggul / Memadai / Berkembang / Belum (rentang 0–100 mengikuti [[output/pbl/level_1/assessment_rubrics|assessment_rubrics]]). Diisi dosen akhir semester dari bukti per Sub-CPMK: S-01.1, S-02.1, S-03.1, S-04.1, S-11.1, S-12.1, S-14.1, S-14.2.
+9 kompetensi: **problem framing, system thinking, computational thinking, programming, testing, communication, collaboration, AI literacy, reflection**. Status klaim: Unggul / Memadai / Berkembang / Belum (rentang 0–100 mengikuti [assessment_rubrics](ASSESSMENT_RUBRICS.md)). Diisi dosen akhir semester dari bukti per Sub-CPMK: S-01.1, S-02.1, S-03.1, S-04.1, S-11.1, S-12.1, S-14.1, S-14.2.
 
 ## 5.5 Prosedur Penutupan (Post-Demo Day)
 1. **Verifikasi reviewer gate** — klaim individu (score sheet) vs bukti artefak; koreksi bila tidak cocok.
@@ -166,9 +188,9 @@ Proporsi default dapat diselaraskan dengan RPS; catat perubahan agar dokumentasi
 6. **Arsip** — score sheet, bukti, passport, catatan intervensi diarsipkan dosen koordinator.
 
 ## 5.6 Rubrik & Referensi
-- Rubrik artefak (D1–D4) & per Sub-CPMK: [[output/pbl/level_1/assessment_rubrics|assessment_rubrics]].
-- Framework & generic attributes SFIA (L1–L4): [[output/pbl/shared/assessment_framework|assessment_framework]], [[output/pbl/shared/sfia_mapping|sfia_mapping]].
-- Score sheet per mahasiswa: [[output/pbl/level_1/instructor_guide|instructor_guide]] 5.1.
+- Rubrik artefak (D1–D4) & per Sub-CPMK: [ASSESSMENT_RUBRICS.md](ASSESSMENT_RUBRICS.md).
+- Framework & generic attributes SFIA (L1–L4): `assessment_framework`, `sfia_mapping`.
+- Score sheet per mahasiswa: `instructor_guide` §5.1.
 
 ---
 
@@ -218,3 +240,7 @@ Prinsip: **fading** — kurangi bantuan saat mahasiswa menunjukkan kemandirian; 
 8. [ ] Mitra/pemilik unit usaha dihubungi untuk validasi & Demo Day.
 9. [ ] Kebijakan AI + template disclosure & decision log disosialisasikan.
 10. [ ] Format **Individual Competency Passport** dibagikan & dijelaskan.
+
+---
+
+*Buku petunjuk ini diselaraskan dengan `revision_note_1.md`, project guide, learning spine, worksheet book, assessment rubrics, dan instructor guide level 1 — serta berpasangan dengan panduan mahasiswa di `pbl_guidebook_for_student_revisi_3.md`.*

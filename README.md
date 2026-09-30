@@ -1,4 +1,4 @@
-﻿# PjBL Level 1 -- Digital Problem Framing Mini Project
+# PjBL Level 1 -- Digital Problem Framing Mini Project
 
 Buku petunjuk Project-Based Learning (PjBL) untuk mahasiswa Semester 1 Program Studi Sistem Informasi.
 
@@ -19,11 +19,13 @@ Proyek **Digital Problem Framing Mini Project** adalah kesempatan mahasiswa untu
 |---|---|
 | [Panduan Mahasiswa](docs/PANDUAN_MAHASISWA.md) | Buku petunjuk utama untuk mahasiswa (revisi 3) |
 | [Panduan Dosen](docs/PANDUAN_DOSEN.md) | Buku petunjuk operasional untuk dosen pengampu & reviewer gate |
-| [Panduan Mentor](docs/PANDUAN_MENTOR.md) | Petunjuk teknis per pekan untuk mentor praktikum (onboarding GitHub & e-learning, praktikum Dasar Pemrograman) |
+| [Panduan Mentor](docs/PANDUAN_MENTOR.md) | Buku petunjuk mentor (v2.0): peran sebagai PBL Learning Facilitator, layer fase PBL pada 16 pekan, coaching problem framing, matriks eskalasi, dan preparation checklist |
 | [Worksheet Book](docs/WORKSHEET_BOOK.md) | Kumpulan worksheet WS01-WS16 |
 | [Template Pack](docs/TEMPLATE_PACK.md) | Template deliverable TPL-01 s.d. TPL-11 (D1-D4 + supporting evidence) |
 | [Assessment Rubrics](docs/ASSESSMENT_RUBRICS.md) | Rubrik penilaian lengkap (skema 50/30/20) |
 | [Jadwal Semester](docs/JADWAL_SEMESTER.md) | Jadwal 16 minggu (8 fase, GATE 1, GATE 2, DEMO DAY) |
+
+> Beberapa dokumen di `docs/` masih menyebut dokumen internal yang belum dipublikasikan di repository ini (contoh: `learning_spine`, `instructor_guide`, `project_guide_level_1`, silabus, dan dokumen shared). Nama dokumen tersebut ditulis dalam backtick sebagai referensi, bukan tautan. Hubungi koordinator bila diperlukan versi yang dapat dibagikan.
 
 ## Starter Pack
 
@@ -64,15 +66,17 @@ docs/                         Dokumen proyek
 ## Untuk Dosen
 
 1. Baca [Panduan Dosen](docs/PANDUAN_DOSEN.md) — buku petunjuk operasional penuh (fasilitasi, gate, asesmen 50/30/20, passport).
-2. Clone repository ini
-3. Bagikan URL clone ke mahasiswa di minggu 1
-4. Mahasiswa clone starter pack untuk memulai proyek
+2. Baca juga [Panduan Mentor](docs/PANDUAN_MENTOR.md) bila Anda matchs dengan mentor — di sanalah fasilitasi 8 fase, checklist mingguan, dan matriks eskalasi dijelaskan.
+3. Clone repository ini
+4. Bagikan URL clone ke mahasiswa di minggu 1
+5. Mahasiswa clone starter pack untuk memulai proyek
 
 ## Untuk Mentor
 
-1. Baca [Panduan Mentor](docs/PANDUAN_MENTOR.md) — petunjuk teknis per pekan (rasio 1 mentor : 2 tim, 16 aktivitas `| mentor`, rubrik, etika & pelaporan).
-2. Pekan 1 berfokus pada **onboarding tools**: akses e-learning, GitHub (clone/commit/push), dan menjalankan Python pertama kali.
-3. Skor mentor adalah **input bagi dosen** — dosen yang menetapkan nilai akhir.
+1. Baca [Panduan Mentor](docs/PANDUAN_MENTOR.md) — peran mentor, fasilitasi 8 fase, 16 pekan (rasio 1 mentor : 2 tim, 17 aktivitas `| mentor`, rubrik), coaching, eskalasi, dan pelaporan.
+2. Struktur 16 pekan mengikuti aktivitas Moodle yang sudah ada; inti panduannya adalah **fase PBL** yang dilalui tim tiap pekan, bukan urutan materi pemrograman.
+3. Pertanyaan awal yang dijawab mentor tiap pekan: *Where are we? · What should students have? · What is next?*
+4. Skor mentor adalah **input bagi dosen** — dosen yang menetapkan nilai akhir.
 
 ## Lisensi
 

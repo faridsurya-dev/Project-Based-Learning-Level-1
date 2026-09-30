@@ -5,17 +5,17 @@ Semester : 1
 Version : Draft v2.0
 Last Updated : 2026-09-19
 Related Files:
-- [[output/pbl/level_1/project_guide_level_1|project_guide_level_1]]
-- [[output/pbl/level_1/worksheet_book|worksheet_book]]
-- [[output/pbl/level_1/instructor_guide|instructor_guide]]
-- [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]]
-- [[output/pbl/level_1/learning_spine|learning_spine]]
+- `project_guide_level_1`
+- [WORKSHEET_BOOK.md](WORKSHEET_BOOK.md)
+- `instructor_guide`
+- `individual_competency_passport`
+- `learning_spine`
 
 ---
 
 # Petunjuk Penggunaan
 - Template berikut adalah **dokumen penyerahan (submission documents)** untuk **Core Learning Artifacts D1–D4** dan **Supporting Evidence**.
-- Bukan worksheet — pengerjaan analisis dilakukan di [[output/pbl/level_1/worksheet_book|worksheet_book]]; template ini untuk menyajikan hasil akhir secara profesional.
+- Bukan worksheet — pengerjaan analisis dilakukan di [WORKSHEET_BOOK.md](WORKSHEET_BOOK.md); template ini untuk menyajikan hasil akhir secara profesional.
 - Merujuk `revision_note_1.md`: hanya **4 core artifacts** (D1–D4) yang menjadi deliverable besar; AI disclosure, decision log, meeting log, peer assessment, LinkedIn menjadi **supporting evidence** (lampiran), bukan dokumen berdiri sendiri.
 - Salin template sesuai kebutuhan, isi bagian bertanda `[...]`, lalu hapus bagian panduan.
 - Standar profesional: jelas, ringkas, mudah dipahami (SFIA ICPM L2).
@@ -322,7 +322,7 @@ Tanda tangan seluruh anggota: [nama] / [nama] / [nama] / [nama]
 *Lihat cheat sheet di guidebook (Lampiran LinkedIn).*
 
 ## TPL-11 — Individual Competency Passport (per mahasiswa)
-*Diisi per mahasiswa; format lengkap di [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]].*
+*Diisi per mahasiswa; format lengkap di `individual_competency_passport`.*
 
 ## Individual Competency Passport
 **Nama**: ... | **NIM**: ... | **Semester**: 1

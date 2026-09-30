@@ -2,13 +2,13 @@ Tags: #type/guidebook #domain/pbl #pbl/level-1
 # Buku Petunjuk Project-Based Learning (PjBL) — Level 1 (Revisi 3)
 Version : Draft v3.0 | Last Updated : 2026-09-19
 Related Files:
-- [[output/pbl/level_1/project_guide_level_1|project_guide_level_1]]
-- [[output/pbl/level_1/learning_spine|learning_spine]]
-- [[output/pbl/level_1/worksheet_book|worksheet_book]]
-- [[output/pbl/level_1/template_pack|template_pack]]
-- [[output/pbl/level_1/assessment_rubrics|assessment_rubrics]]
-- [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]]
-- [[output/pbl/level_1/jadwal_semester_pbl_level_1|jadwal_semester_pbl_level_1]]
+- `project_guide_level_1`
+- `learning_spine`
+- [WORKSHEET_BOOK.md](WORKSHEET_BOOK.md)
+- [TEMPLATE_PACK.md](TEMPLATE_PACK.md)
+- [ASSESSMENT_RUBRICS.md](ASSESSMENT_RUBRICS.md)
+- `individual_competency_passport`
+- [JADWAL_SEMESTER.md](JADWAL_SEMESTER.md)
 
 **Digital Problem Framing Mini Project** | Program Studi Sistem Informasi | Semester 1 (Foundation Entry) | TA 2026/2027
 
@@ -119,7 +119,7 @@ Aturan:
 | **D3** | Tested Solution Prototype | Prototipe konsol + kode, test cases & results, user validation, improvement, limitation | Dasar Prog | Design GATE 1 → GATE 2 |
 | **D4** | Reflection & Portfolio | Summary, decisions, kontribusi individu, AI disclosure, verification, refleksi, dokumentasi portfolio | Kom. Profesional & B. Inggris (co-owner) | Draf GATE 2 → DEMO DAY |
 
-Format penyerahan: **TPL-01** (D1), **TPL-02** (D2), **TPL-03** (D3), **TPL-04** (D4) — lihat [[output/pbl/level_1/template_pack|template_pack]].
+Format penyerahan: **TPL-01** (D1), **TPL-02** (D2), **TPL-03** (D3), **TPL-04** (D4) — lihat [template_pack](TEMPLATE_PACK.md).
 
 ## 4.2 Supporting Evidence (lampiran, dibukukan di D4)
 | Evidence | Isi | Template |
@@ -243,21 +243,21 @@ Terbaca: setiap **worksheet** menopang **template** tertentu; template inti (TPL
 - AI bagian mana pun harus bisa kamu jelaskan dan verifikasi secara manual.
 
 ## 5.3 Individual Competency Passport
-9 kompetensi: **problem framing, system thinking, computational thinking, programming, testing, communication, collaboration, AI literacy, reflection**. Isi format di [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]].
+9 kompetensi: **problem framing, system thinking, computational thinking, programming, testing, communication, collaboration, AI literacy, reflection**. Isi format di `individual_competency_passport`.
 
 ---
 
 # Bagian 6: Worksheet, AI Policy & Tips Sukses
 
 ## 6.1 Worksheet (16)
-WS01 Normalisasi tim · WS02 Need-to-Know · WS03 Observasi lapangan · WS04 Scope · WS05 Kebutuhan · WS06 Metrik · WS07 Desain · WS08 Kritik I · WS09 Rencana build · WS10 Log uji & walkthrough · WS11 Sprint log · WS12 Validasi pengguna · WS13 Kritik II · WS14 Pitch/demo · WS15 Refleksi & AI · WS16 Postmortem. Panduan: [[output/pbl/level_1/worksheet_book|worksheet_book]].
+WS01 Normalisasi tim · WS02 Need-to-Know · WS03 Observasi lapangan · WS04 Scope · WS05 Kebutuhan · WS06 Metrik · WS07 Desain · WS08 Kritik I · WS09 Rencana build · WS10 Log uji & walkthrough · WS11 Sprint log · WS12 Validasi pengguna · WS13 Kritik II · WS14 Pitch/demo · WS15 Refleksi & AI · WS16 Postmortem. Panduan: [worksheet_book](WORKSHEET_BOOK.md).
 
 ## 6.2 AI Policy (ringkas)
 1. AI = co-pilot, bukan substitusi.
 2. Wajib **AI disclosure & verification note** pada setiap artefak (lampiran D4).
 3. Dilarang menyerahkan output AI mentah tanpa analisis, modifikasi, dan verifikasi manual.
 4. Entry event, sesi critique, dan refleksi **tidak boleh dilakukan oleh AI**.
-Detail: [[output/pbl/shared/ai_policy|ai_policy]].
+Detail: `ai_policy`.
 
 ## 6.3 Tips Sukses
 - **Malcolm Lihat bukti pertama**: data lapangan adalah jangkar D1–D2.

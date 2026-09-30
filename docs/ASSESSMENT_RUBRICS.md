@@ -5,17 +5,17 @@ Semester : 1
 Version : Draft v2.0
 Last Updated : 2026-09-19
 Related Files:
-- [[output/pbl/level_1/project_guide_level_1|project_guide_level_1]]
-- [[output/pbl/level_1/worksheet_book|worksheet_book]]
-- [[output/pbl/level_1/template_pack|template_pack]]
-- [[output/pbl/level_1/instructor_guide|instructor_guide]]
-- [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]]
-- [[output/pbl/level_1/learning_spine|learning_spine]]
+- `project_guide_level_1`
+- [WORKSHEET_BOOK.md](WORKSHEET_BOOK.md)
+- [TEMPLATE_PACK.md](TEMPLATE_PACK.md)
+- `instructor_guide`
+- `individual_competency_passport`
+- `learning_spine`
 Shared References:
-- [[output/pbl/shared/assessment_framework|assessment_framework]]
-- [[output/pbl/shared/sfia_mapping|sfia_mapping]]
-- [[output/pbl/shared/glossary|glossary]]
-- [[output/pbl/shared/ai_policy|ai_policy]]
+- `assessment_framework`
+- `sfia_mapping`
+- `glossary`
+- `ai_policy`
 
 ---
 
@@ -28,7 +28,7 @@ Mengacu `revision_note_1.md`:
 - **Individual Evidence** = Gate 1 oral defense, Gate 2 code walkthrough, individual reflection, contribution evidence, decision explanation.
 - Proporsi default: **50% team artifact · 30% individual defense/walkthrough · 20% individual reflection/process evidence**.
 
-Kerangka, prinsip, dan master generic attributes SFIA ada di [[output/pbl/shared/assessment_framework|assessment_framework]]. Rentang skor (default):
+Kerangka, prinsip, dan master generic attributes SFIA ada di `assessment_framework`. Rentang skor (default):
 
 | Skala 4 | Rentang 0–100 | Tingkat kemahiran | Klaim level SFIA |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Kerangka, prinsip, dan master generic attributes SFIA ada di [[output/pbl/shared
 
 **Skor tengah untuk agregasi**: Unggul = 92, Memadai = 77, Berkembang = 62, Belum = 45.
 
-Dokumen ini untuk dosen & reviewer gate. Rubrik yang dibagikan ke mahasiswa adalah versi ringkas di [[output/pbl/level_1/template_pack|template_pack]] dan project wall.
+Dokumen ini untuk dosen & reviewer gate. Rubrik yang dibagikan ke mahasiswa adalah versi ringkas di [template_pack](TEMPLATE_PACK.md) dan project wall.
 
 ---
 
@@ -127,7 +127,7 @@ MK owner: Kom. Profesional & B. Inggris (co-owner) | SFIA: ICPM L2, CSMG L2, gen
 
 ## 3) Rubrik Generic Attributes SFIA (Level 1: L1 vs L2)
 
-Dipakai reviewer untuk klaim level individu (master lengkap L1–L4 di [[output/pbl/shared/assessment_framework|assessment_framework]] Bagian 7).
+Dipakai reviewer untuk klaim level individu (master lengkap L1–L4 di `assessment_framework` Bagian 7).
 
 | Generic Attribute | Level 1 (Follow) | Level 2 (Assist) | Bukti pada project |
 |---|---|---|---|
@@ -218,12 +218,12 @@ Bobot di bawah default dan dapat diselaraskan RPS. Skor bukti memakai skala 0–
 
 - **Skor bukti** (0–100): dari rubrik per core artifact (Bagian 2) atau rubrik komponen (Bagian 4–6).
 - **Skor Sub-CPMK** = Σ (bobot bukti × skor bukti) / 100.
-- **Skor CPMK** = Σ (bobot sub-CPMK × skor sub-CPMK) — bobot sub-CPMK ditetapkan level sesuai [[output/learning_framework/06a_sub_cpmk_mapping|06a_sub_cpmk_mapping]]; dipakai untuk penilaian RPS tiap MK.
+- **Skor CPMK** = Σ (bobot sub-CPMK × skor sub-CPMK) — bobot sub-CPMK ditetapkan level sesuai `06a_sub_cpmk_mapping`; dipakai untuk penilaian RPS tiap MK.
 - **Klaim level SFIA**: sub-CPMK ≥ 70 (Memadai) pada bukti pendukung skill = klaim level target; 55–69 = penguatan; <55 = remedial.
 
 ### 8.3 Output akhir per mahasiswa
 
-Score sheet per mahasiswa (template di [[output/pbl/level_1/instructor_guide|instructor_guide]] Bagian 5.1) menghasilkan:
+Score sheet per mahasiswa (template di `instructor_guide` Bagian 5.1) menghasilkan:
 - nilai akhir per Sub-CPMK (0–100 + tingkat kemahiran),
 - nilai per CPMK (konversi ke MK),
 - klaim level SFIA,

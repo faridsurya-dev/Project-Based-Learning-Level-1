@@ -5,14 +5,14 @@ Semester : 1
 Version : Draft v2.0
 Last Updated : 2026-09-19
 Related Files:
-- [[output/pbl/level_1/project_guide_level_1|project_guide_level_1]]
-- [[output/pbl/level_1/instructor_guide|instructor_guide]]
-- [[output/pbl/level_1/learning_spine|learning_spine]]
-- [[output/pbl/level_1/individual_competency_passport|individual_competency_passport]]
-- [[output/pbl/level_1/silabus/konsep_si|silabus_konsep_si]]
-- [[output/pbl/level_1/silabus/dasar_pemrograman|silabus_dasar_pemrograman]]
-- [[output/pbl/level_1/silabus/komunikasi_profesional|silabus_komunikasi_profesional]]
-- [[output/pbl/level_1/silabus/bahasa_inggris|silabus_bahasa_inggris]]
+- `project_guide_level_1`
+- `instructor_guide`
+- `learning_spine`
+- `individual_competency_passport`
+- `silabus_konsep_si`
+- `silabus_dasar_pemrograman`
+- `silabus_komunikasi_profesional`
+- `silabus_bahasa_inggris`
 
 ---
 
