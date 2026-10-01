@@ -1,6 +1,6 @@
 Tags: #type/guidebook #domain/pbl #pbl/level-1 #audience/mentor
 # Buku Petunjuk Mentor — Project-Based Learning (PjBL) Level 1
-Version : v2.0 | Last Updated : 2026-09-30
+Version : v2.1 | Last Updated : 2026-10-01
 Related Files:
 - [PANDUAN_DOSEN.md](PANDUAN_DOSEN.md)
 - [PANDUAN_MAHASISWA.md](PANDUAN_MAHASISWA.md)
@@ -241,14 +241,14 @@ Batas peran mentor: mentor membantu **kualitas pertanyaan dan kejelasan evidence
 
 Struktur 16 pekan dipertahankan agar **tetap 1:1 dengan aktivitas `| mentor` di Moodle Course PBL Level 1** (kode aktivitas & rubrik tidak berubah). Yang berubah adalah cara membacanya: **fase lebih dulu, lalu aktivitas teknis sebagai lapisan pendukung.**
 
-Peta aktivitas mentor (17 aktivitas pada 16 pekan):
+Peta aktivitas mentor (16 pekan): **Pekan 1–4 = support** (WS01–WS06 + draf D1/D2), **Pekan 5–16 = 13 kegiatan yang dinilai** dengan rubrik resmi.
 
-| Pekan | Kode aktivitas | Rubrik |
+| Pekan | Artefak | Rubrik |
 |---|---|---|
-| 1 | `Lat-M1` | Rubrik Praktikum Pemrograman Dasar (S-03.5) |
-| 2 | `Lat-M2` | Rubrik Praktikum Pemrograman Dasar (S-03.5) |
-| 3 | `Lat-M3` | Rubrik Praktikum Pemrograman Dasar (S-03.5) |
-| 4 | `Lat-M4` | Rubrik Praktikum Pemrograman Dasar (S-03.5) |
+| 1 | `WS01`, `WS02` | Support mentor — S-14.1, S-01.1 (dosen MK pemilik) |
+| 2 | `WS03`, `WS04`, `D1` draf | Support mentor — S-04.1, S-01.1 (dosen Konsep SI) |
+| 3 | `WS05`, `D1`/`D2` draf | Support mentor — S-01.1, S-02.1 (dosen Konsep SI) |
+| 4 | `WS06`, `D1`/`D2` draf | Support mentor — S-02.1 (dosen Konsep SI) |
 | 5 | `WS07-DP` | Rubrik Desain Solusi Sederhana (S-03.1) |
 | 6 | `WPseud` | Rubrik Desain Solusi Sederhana (S-03.1) |
 | 7 | `WS07-final` | Rubrik Desain Solusi Sederhana (S-03.1) |
@@ -263,22 +263,24 @@ Peta aktivitas mentor (17 aktivitas pada 16 pekan):
 | 15 | `DemoPrep-DP` | Rubrik Demo Day / Presentasi / Oral Defense (S-03.5) |
 | 16 | `Postmortem-DP` | Rubrik Learning Journal / Refleksi Akhir (S-03.5) |
 
-Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS01`–`WS08` (Konsep SI & Komunikasi Profesional), `WS14`–`WS16`, forum mingguan, serta review `Check-13` (Konsep SI). Untuk aktivitas ini mentor bersifat **support/coaching**, bukan grader.
+Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS07`, `WS08`, `WS14`–`WS16` (Komunikasi Profesional), forum mingguan, serta review `Check-13` (Konsep SI). Untuk aktivitas ini mentor bersifat **support/coaching**, bukan grader.
+
+> **Catatan kode artefak.** Artefak yang diakui di dokumentasi rilis ini hanya `WS01`–`WS16` (worksheet), `D1`–`D4` (core artifact), `E1`–`E7` (evidence/lampiran D4), dan `TPL-01`–`TPL-11` (instrumen). Latihan teknis pada Pekan 1–4 (input–proses–output, konversi tipe data, percabangan, perulangan) **bukan artefak terpisah** dan tidak berkode — hasilnya masuk ke `src/main.py` dan menjadi bahan awal `D3`.
 
 ---
 
 ## Pekan 1 — Discover: Menetapkan Arah, Tim, dan Alat Kerja
 
 - **Where are we?** Fase Discover, pekan 1. Tim belum punya arah masalah dan belum punya alat kerja.
-- **What should students have?** WS02 (≥6 pertanyaan need-to-know beserta sumber), WS01 (tim 3–4 orang, objek studi dari daftar aman, jadwal rotating phase lead, ≥5 norma), forum perkenalan, repo tim ter-clone dengan commit pertama, Lat-M1 berhasil dijalankan.
+- **What should students have?** WS02 (≥6 pertanyaan need-to-know beserta sumber), WS01 (tim 3–4 orang, objek studi dari daftar aman, jadwal rotating phase lead, ≥5 norma), forum perkenalan, repo tim ter-clone dengan commit pertama, latihan teknis pertama (input–proses–output) berhasil dijalankan.
 - **What is next?** Menyusun rencana pengetahuan yang akan dicari di lapangan pada Pekan 2.
 
-**Aktivitas mentor**: `Lat-M1` — Rubrik Praktikum Pemrograman Dasar (S-03.5). Latihan ini adalah lapisan teknis; inti pekan adalah Discover.
+**Aktivitas mentor**: support pada `WS01` & `WS02` — bukan grading. Latihan teknis pertama adalah lapisan pendukung tanpa kode artefak; inti pekan adalah Discover.
 
 **SOP — A. Akses E-Learning**
 1. Pastikan mahasiswa login Moodle dan masuk course **PBL Level 1**.
 2. Unduh **PANDUAN_MAHASISWA** & **starter pack** dari resource course.
-3. Cek akses forum umum + tempat submisi tugas **Lat-M1**.
+3. Cek akses forum umum + tempat submisi tugas latihan teknis.
 
 **SOP — B. GitHub**
 4. Buat akun GitHub (username profesional, mis. `nama_nim`) atau klaim undangan repositori tim.
@@ -290,10 +292,10 @@ Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS01`–`W
 **SOP — C. Python & Latihan Pertama**
 9. Instal Python 3.10+ (centang *Add to PATH*); verifikasi `python --version`.
 10. `python src/main.py` → harus muncul menu aplikasi CSV sederhana.
-11. Buat program **Lat-M1** (sapa → baca → tampilkan ulang nama; beri komentar bagian *input / proses / output*).
-12. Jalankan, ambil **screenshot**, unggah `.py` + screenshot di Moodle.
+11. Buat program latihan teknis pertama (sapa → baca → tampilkan ulang nama; beri komentar bagian *input / proses / output*) di `src/main.py`.
+12. Jalankan, ambil **screenshot**, unggah ke Moodle.
 
-**Checklist mentor** (per mahasiswa): login e-learning ✓ · clone repo ✓ · commit pertama ter-push ✓ · `python src/main.py` jalan ✓ · Lat-M1 terunggah ✓.
+**Checklist mentor** (per mahasiswa): login e-learning ✓ · clone repo ✓ · commit pertama ter-push ✓ · `python src/main.py` jalan ✓ · latihan teknis terunggah ✓ · `WS01` & `WS02` lengkap ✓.
 
 - **Coaching**: *"Bagian mana yang disebut input, proses, output?"* · *"Apa isi `data_penjualan.csv` setelah program dijalankan?"* · *"Soal need-to-know kalian, dari mana sumbernya?"*
 - **Eskalasi**: kendala instalasi/PATH/akun → catat di log mentor (6.1) & laporkan ke dosen sebelum pekan berikutnya.
@@ -301,14 +303,14 @@ Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS01`–`W
 ## Pekan 2 — Frame: Melihat dan Bertanya di Lapangan
 
 - **Where are we?** Fase Frame (Observe → Ask → Record → Interpret → Frame). Tim turun ke lapangan untuk pertama kali.
-- **What should students have?** WS03 (≤10 pertanyaan + lembar observasi), WS04 (3 calon masalah → 1 masalah utama + insight + scope/non-scope), forum simulasi wawancara etis, Lat-M2.
+- **What should students have?** WS03 (≤10 pertanyaan + lembar observasi), WS04 (3 calon masalah → 1 masalah utama + insight + scope/non-scope), forum simulasi wawancara etis, latihan teknis tipe data & konversi terunggah.
 - **What is next?** Mengubah insight menjadi kebutuhan awal yang bisa diuji (Pekan 3).
 
-**Aktivitas mentor**: `Lat-M2` — Rubrik Praktikum Pemrograman Dasar (S-03.5).
+**Aktivitas mentor**: support pada `WS03` & `WS04` (dosen Konsep SI). Latihan teknis diintegrasikan tanpa kode artefak.
 
 - **Sebelum**: pastikan setiap tim sudah meminta izin kepada pemilik usaha; bekali lembar observasi & daftar pertanyaan.
 - **Selama**: dampingi penyusunan pertanyaan — hindari pertanyaan yang mengarahkan jawaban (*leading*) atau menjanjikan solusi. Tekankan *type mismatch* pada latihan konversi; minta mahasiswa menjelaskan output sebelum mengeksekusi.
-- **Setelah**: periksa evidence sudah tercatat lengkap (termasuk angka sederhana); nilai Lat-M2 + screenshot; beri umpan balik singkat.
+- **Setelah**: periksa evidence sudah tercatat lengkap (termasuk angka sederhana); beri umpan balik singkat pada WS03/WS04 dan hasil latihan teknis + screenshot.
 - **Coaching**: *"Mana yang kalian lihat sendiri, mana yang kalian dengar?"* · *"Mana fakta, mana asumsi?"* · *"Apakah ini masalah inti, atau gejalanya?"* · *"input() selalu mengembalikan string — apa akibatnya kalau tidak di-casting?"*
 - **Batas**: mentor **tidak memilihkan** masalah tim. Bila objek studi terasa tidak aman atau tidak etis, eskalasi ke dosen (6.2).
 - **Eskalasi**: pemilik usaha keberatan / menolak → hentikan aktivitas, laporkan ke dosen sebelum pekan berikutnya.
@@ -316,10 +318,10 @@ Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS01`–`W
 ## Pekan 3 — Define: Kebutuhan Awal & Kriteria Penerimaan
 
 - **Where are we?** Fase Define, pekan 3. Tim menerjemahkan masalah menjadi kebutuhan yang bisa diuji.
-- **What should students have?** WS05 (user story + acceptance criteria), forum rapat status, Lat-M3.
+- **What should students have?** WS05 (user story + acceptance criteria), forum rapat status, latihan teknis percabangan.
 - **What is next?** Success metrics dan peta komponen SI (Pekan 4).
 
-**Aktivitas mentor**: `Lat-M3` — Rubrik Praktikum Pemrograman Dasar (S-03.5).
+**Aktivitas mentor**: support pada `WS05` (dosen Konsep SI); latihan teknis dipandu lewat sesi coaching.
 
 - **Sebelum**: siapkan 2–3 soal keputusan sederhana yang nyambung dengan masalah tim (mis. validasi stok, cek harga).
 - **Selama**: minta mahasiswa menulis *flowchart mini* dulu sebelum kode; tekankan indentasi & kondisi majemuk (`and`/`or`). Tanyakan: *"Dari acceptance criterion kalian, input apa yang harus mengaktifkannya?"*
@@ -330,10 +332,10 @@ Aktivitas yang **bukan** dinilai mentor tetapi tetap perlu dipantau: `WS01`–`W
 ## Pekan 4 — Define: Metrik Keberhasilan & Peta Komponen
 
 - **Where are we?** Fase Define, pekan 4. Tim mengukur "berhasil" dan memetakan komponen sistem.
-- **What should students have?** WS06 (success metric + peta komponen SI), forum refleksi kolaborasi, Lat-M4.
+- **What should students have?** WS06 (success metric + peta komponen SI), forum refleksi kolaborasi, latihan teknis perulangan.
 - **What is next?** Desain solusi (Pekan 5).
 
-**Aktivitas mentor**: `Lat-M4` — Rubrik Praktikum Pemrograman Dasar (S-03.5).
+**Aktivitas mentor**: support pada `WS06` (dosen Konsep SI); latihan teknis dipandu lewat sesi coaching.
 
 - **Sebelum**: siapkan contoh perulangan menu utama (pola `while True` + menu) yang dipakai starter pack.
 - **Selama**: tekankan perbedaan FOR (jumlah iterasi jelas) vs WHILE (berhenti berdasarkan kondisi); awas **infinite loop** (selalu sediakan cara keluar/`break`).
@@ -760,6 +762,7 @@ Checklist ini mengubah mentor dari **reactive helper** menjadi **prepared learni
 |---|---|---|
 | v1.0 | 2026-09-20 | Draft awal: 16 pekan, aktivitas `\| mentor`, rubrik, troubleshooting |
 | v2.0 | 2026-09-30 | Revisi sesuai `revision_note_2.md`: definisi PBL Learning Facilitator, layer fase PBL pada 16 pekan, Problem Framing Coaching, ecosystem & integration map, *Mentor Must Not*, Coaching Question Bank, log Progress+Learning+Risk, eskalasi, weekly sync 15–20 menit, preparation checklist |
+| v2.1 | 2026-10-01 | Konsistensi kode artefak: hapus `Lat-M1`–`Lat-M4` (kode modul). Pekan 1–4 kini memakai `WS01`–`WS06` + draf `D1`/`D2`; latihan teknis tanpa kode artefak. Peta aktivitas 16 pekan: 4 support + 13 dinilai |
 
 ---
 
